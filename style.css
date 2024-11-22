@@ -1,0 +1,38 @@
+.caixa img {
+    width: 200px; /* Largura fixa */
+    height: 150px; /* Altura fixa */
+    object-fit: cover; /* Corta as bordas para preencher o espaço */
+    border-radius: 8px; /* Apenas para estética, opcional */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.caixa {
+    flex: 1;
+    margin-right: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.caixa img {
+    width: 200px; /* Largura fixa */
+    height: 150px; /* Altura fixa */
+    object-fit: cover; /* Corta as bordas para preencher o espaço */
+    border-radius: 8px; /* Apenas para estética, opcional */
+}
+
+.caixa p {
+    margin: 10px 0 0;
+    font-size: 16px;
+}
